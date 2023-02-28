@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix projem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:wght@300&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+           
+        <div id="container"></div>
+    </section>
+    <section>
+           
+        <div id="title" class="title-fonts title-section">
+            NET<span class="red-title">FLIX</span>
+        </div>
+        <div id="description" class="description-fonts description-section">
+            Thank you for signing up at Netflix. Tell us more about yourself.
+        </section>
+        <section>
+               
+        <div id="survey-form"></div>
+    </section>
+    <section>
+        <form class="label-section label-fonts" >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Age">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+            <label for="content-type">Content Type</label>
+            <select name="content-type" id="content-type">
+                <option value="series">Series</option>
+                <option value="movie">Movie</option>
+                <option value="cartoon">Cartoon</option>
+                <option value="spor">Spor</option>
+            </select>
+
+            <div class="movietype-border">
+                <label for="movie-type">Movie Type</label><br>
+                <input type="checkbox" name="comedy" id="comedy">Comedy<br>
+                <input type="checkbox" name="action" id="action">Action<br>
+                <input type="checkbox" name="romance" id="romance">Romance<br>
+            </div>
+            <div class="gendertype-border">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+            </div>
+            <div class="feedbacktype-border">
+                <label class="feedback">Feedback</label><br>
+                <textarea name="comment" id="textarea-type">Please write your comment..</textarea>
+            </div>
+
+            <button type="button" id="button-type">Send</button>
+        </form>
+  </section>
+
+<img
+     src="background_image.jpg"
+     alt="netflix-background" 
+     width="100%" 
+     height="100%">
+    
+</body>
+</html>
