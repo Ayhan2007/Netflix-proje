@@ -1,1 +1,1 @@
-# Netflix-proje
+İLK GİRİŞ SAYFASI TASARIMIM
